@@ -1,0 +1,16 @@
+#success_message {
+	display: none;
+}
+
+.requerido:after {
+	content: "*";
+	color: red;
+	font-size: 18px;
+	margin-right: 2px;
+    font-weight: bold !important;
+	
+}
+
+label {
+    font: bold 12px !important;
+}

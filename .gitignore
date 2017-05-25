@@ -1,0 +1,6 @@
+
+# Ignore the Config File
+# this way, each person using this app
+# can set their own DB settings
+
+config.php
