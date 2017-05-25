@@ -67,12 +67,12 @@ $(document).ready(function() {
 	}
 
 	);
-	var table = $('#userTableAge').DataTable({
+	var table1 = $('#userTableAge').DataTable({
 //		"language" : {
 //			"url" : "./public/json/Spanish.json"
 //		}
 	});
-	var table = $('#userTableAgeRange').DataTable({
+	var table2 = $('#userTableAgeRange').DataTable({
 //		"language" : {
 //			"url" : "./public/json/Spanish.json"
 //		}
