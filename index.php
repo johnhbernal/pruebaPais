@@ -90,7 +90,7 @@ $patients = $patient_model->list_all ();
 		
 								</div>
 				<ul>
-											<p for="patient_filter">Number of patients grouped by age</p>
+											<p>Number of patients grouped by age</p>
 			<!-- Punto 3 Listar numero de paciente por edades -->
 			<li><span class='pull-center'>Patients quantity: </span><span class='pull-center'>Age: </span></li>
 		</ul>
@@ -168,7 +168,7 @@ $patients = $patient_model->list_all ();
 		
 								</div>
 				<ul>
-											<p for="patient_filter">Number of patients grouped by age</p>
+											<p >Number of patients grouped by age</p>
 			<!-- Punto 3 Listar numero de paciente por edades -->
 			<li><span class='pull-center'>Patients quantity: </span><span class='pull-center'>Age: </span></li>
 		</ul>
@@ -189,23 +189,19 @@ $patients = $patient_model->list_all ();
 		<!-- 	______________________________________________________ -->
 
 
-		<div class="col-lg-6">
-			<label class="col-md-4 control-label"><a class="requerido"></a>
-				Filter by Name</label>
-			<div class="input-group">
+<!-- 		<div class="col-lg-6"> -->
+<!-- 			<label class="col-md-4 control-label"><a class="requerido"></a> -->
+<!-- 				Filter by Name</label> -->
+<!-- 			<div class="input-group"> -->
 
-				<input type="text" name="patient_filter_name" />
-			</div>
-		</div>
+<!-- 				<input type="text" name="patient_filter_name" /> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 
 		<br>
 		<!-- 	______________________________________________________ -->
-		<!-- 		<p> -->
-		<!-- 			<label for="patient_filter">Filter by Name</label> <input type="text" -->
-		<!-- 				name="patient_filter" /> -->
-		<!-- 		</p> -->
 
-		<p>
+
 		
 		
 		<div class="container " id="contenedorTableImagenes"
@@ -228,7 +224,7 @@ $patients = $patient_model->list_all ();
 								<tbody>
 								<tr>
 										<td>
-									<label for="patient_filter"><a class="requerido"></a>Filter by Name:&nbsp;</label></td>
+									<label for="patient_filterLabel"><a class="requerido"></a>Filter by Name:&nbsp;</label></td>
 									<td> <input
 										type="text" name="patient_filter" placeholder="Type name" class="form-control" /></td>
 								</tr>
@@ -278,7 +274,7 @@ $patients = $patient_model->list_all ();
 		
 								</div>
 				<ul>
-											<p for="patient_filter">Number of patients grouped by age</p>
+											<p >Number of patients grouped by age</p>
 			<!-- Punto 3 Listar numero de paciente por edades -->
 			<li><span class='pull-center'>Patients quantity: </span><span class='pull-center'>Age: </span></li>
 		</ul>
